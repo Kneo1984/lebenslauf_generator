@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Lebenslauf – {{ name }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: 40px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .sidebar {
+      width: 35%;
+      background-color: #1c355e;
+      color: white;
+      padding: 30px;
+    }
+
+    .sidebar h1 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    .sidebar h3 {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .sidebar ul {
+      padding-left: 20px;
+    }
+
+    .main {
+      width: 65%;
+      padding: 40px;
+    }
+
+    .main h2 {
+      color: #1c355e;
+      margin-top: 0;
+    }
+
+    .experience-entry {
+      margin-bottom: 20px;
+    }
+
+    .experience-entry ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="sidebar">
+      <h1>{{ name }}</h1>
+      <h3>Kontakt</h3>
+      <p>{{ kontakt.adresse }}<br>{{ kontakt.email }}</p>
+
+      <h3>Ausbildung</h3>
+      <ul>
+        {% for eintrag in ausbildung %}
+        <li>{{ eintrag }}</li>
+        {% endfor %}
+      </ul>
+
+      <h3>Zertifikate</h3>
+      <ul>
+        {% for z in zertifikate %}
+        <li>{{ z }}</li>
+        {% endfor %}
+      </ul>
+
+      <h3>Technische Fähigkeiten</h3>
+      <ul>
+        {% for tech in technische_faehigkeiten %}
+        <li>{{ tech }}</li>
+        {% endfor %}
+      </ul>
+
+      <h3>Stärken</h3>
+      <ul>
+        {% for s in softskills %}
+        <li>{{ s }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="main">
+      <h2>Berufliches Profil</h2>
+      <p>{{ profil }}</p>
+
+      <h2>Berufserfahrung</h2>
+      {% for job in berufserfahrung %}
+      <div class="experience-entry">
+        <strong>{{ job.titel }}</strong> |
+        {{ job.unternehmen }}{% if job.ort %} | {{ job.ort }}{% endif %}<br>
+        <em>{{ job.zeitraum }}</em>
+        <ul>
+          {% for aufgabe in job.aufgaben %}
+          <li>{{ aufgabe }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+
+      <p style="margin-top: 40px;">Mit freundlichen Grüßen<br><strong>{{ name }}</strong></p>
+    </div>
+  </div>
+
+</body>
+</html>

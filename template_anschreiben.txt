@@ -1,0 +1,19 @@
+Sehr geehrtes Team von DatenPioniere,
+
+mein Name ist {{ name }}. Als {{ job }} mit Erfahrungen u.a. bei {{ berufserfahrung.unternehmen }} sehe ich eine starke Passung zur ausgeschriebenen Position.
+
+In meiner aktuellen/letzten Rolle habe ich:
+- {{ berufserfahrung.aufgaben[0] }}
+- {{ berufserfahrung.aufgaben[1] }}
+- {{ berufserfahrung.aufgaben[2] }}
+
+Mit meinen Stärken in:
+{% for s in softskills %}- {{ s }}
+{% endfor %}
+sehe ich großes Potenzial, Ihre Mission zu unterstützen.
+
+Ich freue mich über die Einladung zu einem persönlichen Gespräch.
+
+Mit freundlichen Grüßen  
+{{ name }}  
+{{ ort }} | {{ email }}

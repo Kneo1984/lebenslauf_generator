@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Anschreiben – {{ name }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 60px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    .kontakt {
+      margin-bottom: 30px;
+    }
+    .signatur {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="kontakt">
+    <strong>{{ name }}</strong><br>
+    {{ kontakt.adresse }}<br>
+    {{ kontakt.email }}
+  </div>
+
+  <div class="anschreiben-text">
+    {{ anschreiben | nl2br }}
+  </div>
+
+  <div class="signatur">
+    Mit freundlichen Grüßen,<br><br>
+    {{ name }}
+  </div>
+
+</body>
+</html>

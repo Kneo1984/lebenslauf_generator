@@ -1,0 +1,121 @@
+{
+  "name": "Dennis Maier",
+  "job": "Data Analyst",
+  "kontakt": {
+    "adresse": "Südstraße 107, 47798 Krefeld",
+    "email": "kneolekks@gmail.com"
+  },
+  "profil": "Engagierter angehender Data Analyst mit starkem Interesse an Data Warehousing, Business Intelligence und datengetriebenen Gesundheitslösungen. Fundierte Kenntnisse in SQL, Power BI, Python und Datenmodellierung. Ich befinde mich aktuell im Endspurt meines Studiums (Abschluss: Juli 2025) und strebe eine Position an, in der ich mein Wissen in einer dynamischen Organisation vertiefen kann.",
+  "berufserfahrung": [
+    {
+      "titel": "Data Analyst",
+      "unternehmen": "DataSmart Point GmbH",
+      "ort": "Remote",
+      "zeitraum": "Aug. 2024 – heute",
+      "aufgaben": [
+        "Aufbau von Dashboards mit Power BI zur Darstellung von Analyseergebnissen",
+        "Datenextraktion via SQL, Mitwirkung an ETL-Pipelines",
+        "Anwendung erster Python-Modelle zur Prognose"
+      ]
+    },
+    {
+      "titel": "Produktionsleiter",
+      "unternehmen": "Krefelder Unternehmen",
+      "ort": "",
+      "zeitraum": "Mai 2023 – Juli 2024",
+      "aufgaben": [
+        "Steuerung der Brikettherstellung, Prozessoptimierung"
+      ]
+    },
+    {
+      "titel": "Teamleiter",
+      "unternehmen": "BLG Logistics",
+      "ort": "",
+      "zeitraum": "Aug. 2019 – Apr. 2023",
+      "aufgaben": [
+        "Optimierung von Lager- und Produktionsprozessen"
+      ]
+    },
+    {
+      "titel": "LKW-Fahrer",
+      "unternehmen": "Derda & Hamacher",
+      "ort": "",
+      "zeitraum": "Mai 2015 – Juli 2019",
+      "aufgaben": [
+        "Transport und termingerechte Auslieferung regionaler Waren"
+      ]
+    },
+    {
+      "titel": "Tourbusfahrer",
+      "unternehmen": "Europaweit",
+      "ort": "",
+      "zeitraum": "Juni 2012 – Apr. 2015",
+      "aufgaben": [
+        "Tourlogistik, sichere Beförderung von Künstlern und Technik"
+      ]
+    },
+    {
+      "titel": "Gründer & Geschäftsführer",
+      "unternehmen": "Maiers Frühstücksservice",
+      "ort": "",
+      "zeitraum": "Jan. 2008 – Mai 2012",
+      "aufgaben": [
+        "Unternehmensführung, Personalverantwortung und Vertrieb"
+      ]
+    }
+  ],
+  "ausbildung": [
+    "Data Analyst (aktuell, Abschluss Juli 2025)",
+    "Fachkraft für Lagerlogistik – C.H. Erbslöh Krefeld (2001 – 2008)"
+  ],
+  "zertifikate": [
+    "MS Excel 2003 Zertifikat – C.H. Erbslöh KG",
+    "English for Business – London Chamber of Commerce",
+    "Weitere Zertifikate in Data Analytics folgen nach Studienabschluss 2025"
+  ],
+  "skills": [
+    "SQL",
+    "Power BI",
+    "Python",
+    "ETL-Prozesse",
+    "Datenmodellierung"
+  ],
+  "technische_faehigkeiten": [
+    "MySQL",
+    "PostgreSQL",
+    "Snowflake",
+    "Excel",
+    "Word",
+    "PowerPoint"
+  ],
+  "softskills": [
+    "Strukturierte Analysefähigkeit und Lernbereitschaft",
+    "Interdisziplinäre Teamarbeit und klare Kommunikation",
+    "Zielorientiertes Denken und hohe Eigenmotivation"
+  ],
+  "anschreiben": "Sehr geehrter Herr Hoffstaedte,\n\nwenn Daten lebendig werden und Entscheidungen eine Richtung bekommen, beginnt für mich wahre Business Intelligence. Genau aus diesem Grund bewerbe ich mich mit Begeisterung auf Ihre ausgeschriebene Position als Junior Consultant bei den DatenPionieren.\n\nWas mich antreibt, ist die Überzeugung, dass Daten mehr sind als Zahlen: Sie erzählen Geschichten. Bei DataSmart Point GmbH bringe ich aktuell meine Fähigkeiten in Power BI, SQL und Python ein, um genau solche Geschichten sichtbar zu machen. Ich entwickle präzise Dashboards, unterstütze beim Aufbau von ETL-Pipelines und setze erste Prognosemodelle mit Python um – alles mit dem Ziel, datengetriebene Erkenntnisse nutzbar zu machen.\n\nIhr Fokus auf Nachhaltigkeit, Flexibilität und sinnstiftende Projekte im Gesundheits- und Business-Kontext trifft nicht nur mein berufliches Interesse, sondern auch meine Werte. Ich brenne für Projekte, bei denen technische Expertise und menschliches Verständnis Hand in Hand gehen – genau dieses Gleichgewicht spiegelt Ihr Unternehmen wider.\n\nMein Profil vereint analytische Tiefe, gestalterischen Anspruch und Teamgeist. Ich bin überzeugt: Mit meiner hohen Eigenmotivation, strukturierten Arbeitsweise und dem Wunsch, gemeinsam Innovation zu gestalten, passe ich perfekt in Ihr Umfeld.\n\nGerne möchte ich Sie in einem persönlichen Gespräch von meiner Motivation und meinem Beitrag für die DatenPioniere überzeugen.\n\nMit herzlichen Grüßen\n\nDennis Maier",
+  "zielunternehmen": {
+    "name": "DatenPioniere",
+    "rolle": "Junior Consultant (m/w/d)",
+    "standort": "Remote oder Dortmund",
+    "gehalt": "45.000 – 55.000 € Jahresgehalt",
+    "vorteile": [
+      "Moderne BI-Projekte mit Power BI und Fabric",
+      "Team mit Leidenschaft für datengetriebene Entscheidungen",
+      "Flexible Arbeitszeiten & Remote-Optionen",
+      "Klimafreundliche Beratung mit echtem Impact"
+    ],
+    "anforderungen": [
+      "Erfahrung mit Power BI oder ähnlichen Tools",
+      "Eigeninitiative und Wunsch zur Weiterentwicklung",
+      "Freude an datenbasierten Lösungen und Teamarbeit",
+      "Abgeschlossenes Studium im Daten-/IT-Bereich"
+    ]
+  },
+  "bewerbung": {
+    "stelle": "Junior Consultant (m/w/d)",
+    "unternehmen": "DatenPioniere",
+    "ansprechpartner": "Herr Hoffstaedte",
+    "adresse": "DatenPioniere GmbH\nHerr Hoffstaedte\nDatenallee 42\n44135 Dortmund"
+  }
+}
